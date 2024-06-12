@@ -1,18 +1,11 @@
 defmodule TheLaundromat do
   @moduledoc """
-  Documentation for `TheLaundromat`.
+  A barebones template that spawns a registered ELixir process,
+    executes an init function, and responds to messages in a loop.
   """
+  use GenServer
+  
+  # Client
 
-  @doc """
-  Hello world.
-
-  ## Examples
-
-      iex> TheLaundromat.hello()
-      :world
-
-  """
-  def hello do
-    :world
-  end
+  # callbacks
 end
